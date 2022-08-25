@@ -15,67 +15,37 @@
       <h1>Student projects by Denis S.</h1>
 
       <article class="project">
-        <h2>A simple To Do app with some advanced features (<span class="highlight">JS</span> practice)</h2>
+        <h2>A feature-rich clone of a movie streaming site made with <span class="highlight">React</span></h2>
         <div class="screenshot-container">
-          <a class="screenshot-link" href="https://malacar-miles.github.io/To-Do-app-training-project">
-            <img class="screenshot" src="img/todo_app_small.png" width="938" height="540" alt="To Do app screenshot" />
+          <a href="https://eastern-european-movies.netlify.app/">
+            <img class="screenshot" src="img/movies.png" alt="Movie site screenshot" />
           </a>
         </div>
         <div class="link-box">
-          <a href="https://malacar-miles.github.io/To-Do-app-training-project">Live page</a>
-          <a href="https://github.com/Malacar-Miles/To-Do-app-training-project">Source code</a>
+          <a href="https://eastern-european-movies.netlify.app/">Live page (on Netlify)</a>
+          <a href="https://github.com/Malacar-Miles/movies">Source code</a>
+          <a href="https://easterneuropeanmovies.com/">Original site</a>
         </div>
         <div class="description">
+          <p>
+            This is my biggest and most complex work so far. I'm still adding small features 
+            and polish from time to time, but it's mostly complete.
+          </p>
           <ul>
-            <li>Saves task creation date/time and shows it in tooltips</li>
-            <li>
-              Click any task to edit its text. Completed tasks can't be edited
-            </li>
-            <li>
-              If the task text is too long, it gets truncated and the full text
-              is displayed in the tooltip
-            </li>
-            <li>
-              Tasks get saved in a cookie and are restored upon reloading the
-              page
-            </li>
+            <li>Responsive design implemented on each page. Separate navigation/search menu for mobile mode</li>
+            <li>A complex Sort and Filter widget stores all its state data in Redux</li>
+            <li>Fully functional search bar (matches movies where title contains all words from the query)</li>
+            <li>Movie data is hosted on Google Firebase. Each movie page view updates the viewcount in the database</li>
+            <li>Decorative elements on all pages move in response to mouse cursor movement, which is tracked using a custom hook</li>
           </ul>
         </div>
       </article>
 
       <article class="project">
-        <h2>A mock e-commerce site (<span class="highlight">CSS</span> practice)</h2>
-        <div class="screenshot-container">
-          <a href="https://malacar-miles.github.io/Musify-training-project-">
-            <img class="screenshot" src="img/musify.png" width="938" height="580" alt="E-commerce site screenshot" />
-          </a>
-        </div>
-        <div class="link-box">
-          <a href="https://malacar-miles.github.io/Musify-training-project-">Live page</a>
-          <a href="https://github.com/Malacar-Miles/Musify-training-project-">Source code</a>
-          <a href="https://www.figma.com/community/file/1090275693470223429">Design source</a>
-        </div>
-        <div class="description">
-          <ul>
-            <li>
-              Switch between Light Theme and Dark Theme with an animated button
-              on the navbar
-            </li>
-            <li>Dummy products on the main page are interactable</li>
-            <li>
-              Product containers on other pages can be scrolled with mouse
-              wheel
-            </li>
-            <li>Exclusive Offer page has a countdown timer</li>
-          </ul>
-        </div>
-      </article>
-
-      <article class="project">
-        <h2>A code-along project: e-commerce site based on <span class="highlight">React</span></h2>
+        <h2>A code-along project: e-commerce site made with <span class="highlight">React</span></h2>
         <div class="screenshot-container">
           <a href="https://crown-clothing-react-training-project.netlify.app">
-            <img class="screenshot" src="img/crown_clothing.png" width="938" height="358" alt="React-based site screenshot" />
+            <img class="screenshot" src="img/crown_clothing.png" alt="React-based site screenshot" />
           </a>
         </div>
         <div class="link-box">
@@ -100,10 +70,68 @@
             </li>
             <li>Fully functional Product Cart</li>
             <li>Uses Redux to manage all state data</li>
-            <li>Uses react-router-dom library and useNavigate hook to implement navigation</li>
+            <li>Uses react-router-dom library to implement navigation</li>
+          </ul>
+        </div>
+      </article>      
+
+      <article class="project">
+        <h2>A mock e-commerce site (<span class="highlight">CSS</span> practice)</h2>
+        <div class="screenshot-container">
+          <a href="https://malacar-miles.github.io/Musify-training-project-">
+            <img class="screenshot" src="img/musify.png" alt="E-commerce site screenshot" />
+          </a>
+        </div>
+        <div class="link-box">
+          <a href="https://malacar-miles.github.io/Musify-training-project-">Live page</a>
+          <a href="https://github.com/Malacar-Miles/Musify-training-project-">Source code</a>
+          <a href="https://www.figma.com/community/file/1090275693470223429">Design source</a>
+        </div>
+        <div class="description">
+          <ul>
+            <li>
+              Switch between Light Theme and Dark Theme with an animated button
+              on the navbar
+            </li>
+            <li>Dummy products on the main page are interactable</li>
+            <li>
+              Product containers on other pages can be scrolled with mouse
+              wheel
+            </li>
+            <li>Exclusive Offer page has a countdown timer</li>
           </ul>
         </div>
       </article>
+
+      <article class="project">
+        <h2>A simple To Do app with some advanced features (<span class="highlight">JS</span> practice)</h2>
+        <div class="screenshot-container">
+          <a class="screenshot-link" href="https://malacar-miles.github.io/To-Do-app-training-project">
+            <img class="screenshot" src="img/todo_app_small.png" alt="To Do app screenshot" />
+          </a>
+        </div>
+        <div class="link-box">
+          <a href="https://malacar-miles.github.io/To-Do-app-training-project">Live page</a>
+          <a href="https://github.com/Malacar-Miles/To-Do-app-training-project">Source code</a>
+        </div>
+        <div class="description">
+          <ul>
+            <li>Saves task creation date/time and shows it in tooltips</li>
+            <li>
+              Click any task to edit its text. Completed tasks can't be edited
+            </li>
+            <li>
+              If the task text is too long, it gets truncated and the full text
+              is displayed in the tooltip
+            </li>
+            <li>
+              Tasks get saved in a cookie and are restored upon reloading the
+              page
+            </li>
+          </ul>
+        </div>
+      </article>
+
     </div>
   </body>
 </html>

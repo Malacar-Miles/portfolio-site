@@ -28,7 +28,7 @@ h1, h2 {
 }
 
 .main-wrapper {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -43,7 +43,7 @@ h1, h2 {
 
 
 .screenshot-container {
-  width: 938px;
+  max-width: 938px;
   margin: 0 auto;
   border-radius: 10px;
   overflow: hidden;
@@ -51,11 +51,11 @@ h1, h2 {
 
 .screenshot {
   display: block;
+  width: 100%;
 }
 
 .screenshot:hover {
-  transform: scale(1.04);
-  transition: 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  opacity: 0.95;
 }
 
 .link-box {
