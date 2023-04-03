@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="main-wrapper">
-      <h1>Student projects by Denis S.</h1>
+      <h1>Portfolio projects by Denis S.</h1>
 
       <article class="project">
         <h2>A feature-rich clone of a movie streaming site made with <span class="highlight">React</span></h2>
@@ -28,8 +28,9 @@
         </div>
         <div class="description">
           <p>
-            This is my biggest and most complex work so far. I'm still adding small features 
-            and polish from time to time, but it's mostly complete.
+            This is my biggest and most complex work so far. It's a partial clone of a big commercial site
+            where I checked the original site's look and functionality and implemented the same without
+            copying any of the site's code.
           </p>
           <ul>
             <li>Responsive design implemented on each page. Separate navigation/search menu for mobile mode</li>
@@ -37,6 +38,33 @@
             <li>Fully functional search bar (matches movies where title contains all words from the query)</li>
             <li>Movie data is hosted on Google Firebase. Each movie page view updates the viewcount in the database</li>
             <li>Decorative elements on all pages move in response to mouse cursor movement, which is tracked using a custom hook</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project">
+        <h2>A modular calculator with drag-and-drop features and complex logic. Made with <span class="highlight">React/Redux</span></h2>
+        <div class="screenshot-container">
+          <a href="https://modular-calculator.netlify.app/">
+            <img class="screenshot" src="img\modular-calculator.png" alt="Modular calculator screenshot" />
+          </a>
+        </div>
+        <div class="link-box">
+          <a href="https://modular-calculator.netlify.app/">Live page (on Netlify)</a>
+          <a href="https://github.com/Malacar-Miles/calculator">Source code</a>
+        </div>
+        <div class="description">
+          <p>
+            This is my latest work so it's the best example of my code quality. </p>
+          <p>This project heavily focuses on logic while using barebones styling.
+            Doesn't work on mobile devices as they don't support drag-and-drop natively, but I might
+            look into it later.
+          </p>
+          <ul>
+            <li>Drag and drop any module from the left pane to add it to the calculator</li>
+            <li>Rearrange modules in the calculator by dragging them. Display module is always on top and it can't be moved</li>
+            <li>Remove modules from the calculator by double clicking them</li>
+            <li>Click the "Runtime" button to enable the calculator's buttons. It will work even if not all modules are added.</li>
           </ul>
         </div>
       </article>
